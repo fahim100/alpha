@@ -1,0 +1,135 @@
+/*
+Theme Name: Alpha
+Theme URI: https://alpha.com
+Author: Fahim Ahmmed
+Author URI: https://fahimahmmed.me
+Description: Our first wordpress theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: alpha
+Tags: blog, portfolio
+*/
+
+.header{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+h1.heading {
+    font-family: "Arial Black";
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+h3.tagline{
+    font-family: Arial;
+    margin:auto;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    width: 700px;
+    text-align: center;
+}
+
+h2.post-title {
+    margin-bottom: 30px;
+}
+
+.post {
+    margin-bottom: 50px;
+}
+
+.post p{
+    font-family: "Helvetica Neue";
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+.post .row:nth-child(2) {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.post:last-child .row:nth-child(2){
+    border-bottom:none;
+}
+
+.wp-block-cover-image.alignleft, .wp-block-cover-image.alignright, .wp-block-cover.alignleft, .wp-block-cover.alignright {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.wp-block-cover, .wp-block-cover-image{
+    height: auto !important;
+}
+
+.post-pagination{
+    margin-bottom: 50px;
+}
+
+.footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #222;
+    color:#ccc;
+}
+
+.tags li{
+    color: #3D9970;
+}
+
+.page-header{
+    padding: 170px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.page-header h1.heading a{
+    color: #222;
+    text-decoration: none;
+}
+.header-logo{
+    margin-top: 50px;
+}
+.errorview{
+    padding: 100px 0;
+}
+.errorview h1{
+    font-size: 100px;
+}
+.errorview h3{
+    font-size: 50px;
+    margin: 20px 0;
+}
+.errorview p{
+    font-size: 30px;
+}
+
+.dashicons{
+    color: #ccc;
+    font-size: 70px;
+}
+
+.author-section{
+    padding: 30px 20px;
+    border: 1px solid #cccccc;
+    margin: 30px 0;
+}
+.author-image img{
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+.search-highlight{
+    background: #ff6c70;
+    font-weight: bold;
+    color: #fff;
+}
